@@ -1,13 +1,14 @@
 package week1.day1;
 
 public class Mobile {
-  private void makecall() {
+  public void makeCall() {
 	
 	 System.out.println("make call"); 
  
   }
   
-  private void sendmsg() {
+  public void sendMsg() {
+	  
 	   System.out.println("send Msg");
   }
 	public static void main(String[] args) {
